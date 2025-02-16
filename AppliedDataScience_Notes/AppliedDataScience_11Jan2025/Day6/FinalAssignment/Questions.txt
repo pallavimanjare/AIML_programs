@@ -1,0 +1,41 @@
+
+Here's an assignment tailored to your request:
+
+Assignment: Data Preprocessing and Hypothesis Testing
+Objective: Perform comprehensive data preprocessing and hypothesis testing to analyze and refine the provided dataset.
+
+
+The dataset contains details about customer preferences and purchases. The columns include:
+
+CustomerID (Unique identifier for customers)
+Age (Customer's age) ( 15 to 80 )
+Gender (Male/Female/Other)
+AnnualIncome (in $1000s)
+SpendingScore (1–100, indicating spending habits)
+PreferredCategory (Customer's preferred product category) (Valid categories are Electronics, Fashion, Home Decor, Sports, Groceries)
+
+
+Activities
+
+1. Missing Value Analysis
+Check for missing values in the dataset.
+Handle the missing values using appropriate techniques (e.g., mean/mode imputation or removal).
+
+2. Categorical Data Handling
+Use pd.get_dummies to encode the categorical column(s) into numerical format.
+
+3. Hypothesis Testing for Normality
+Perform a Shapiro-Wilk test or Kolmogorov-Smirnov test to check if numerical columns follow a normal distribution.
+Report the p-values and interpret the results.
+
+4. Hypothesis Testing for Correlation
+Calculate the correlation matrix for numerical columns.
+Perform a hypothesis test (e.g., Pearson's correlation test) for Age v/s Spending Score
+
+5. Feature Elimination: Parametric and Non-Parametric Tests
+Age v/s SpendinG Score
+Annual Income v/s Spending Score
+
+6. Chi-Square Test for Categorical Columns
+Apply a Chi-Square test to evaluate the relationship between categorical columns and the target variable for feature elimination.
+Gender v/s Spending Score
